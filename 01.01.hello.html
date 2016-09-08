@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Hello React</title>
+      <meta charset="utf-8">
+    </head>
+    <body>
+      <div id="app">
+        <!-- my app renders here -->
+      </div>
+      <script src="react/build/react.js"></script>
+      <script src="react/build/react-dom.js"></script>
+      <script>      
+      ReactDOM.render(
+        React.DOM.h1({
+          className: "fake",
+          htmlFor: "yourself",
+          id: "yeppers",
+          style: {
+            color: "blue",
+            fontFamily: "Verdana",
+          },
+        }, "Hey World."),
+          document.getElementById("app")
+        );
+      </script>
+    </body>
+</html>
